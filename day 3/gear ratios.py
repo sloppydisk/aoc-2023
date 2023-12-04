@@ -72,7 +72,7 @@ import re
 
 # change comment id from '#' to 'lame', otherwise they get excluded. 
 inputs = np.genfromtxt('input.txt', dtype='str', comments= 'lame')
-testinput = np.genfromtxt('testinput.txt', encoding = None, dtype='str', comments= 'lame')
+testinput = np.genfromtxt('testinput.txt', dtype='str', comments= 'lame')
 
 test = False
 
